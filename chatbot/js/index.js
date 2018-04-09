@@ -31,11 +31,7 @@
         ],
         
         processOutput: function (input) {
-            console.log(input);
-
             input = input.trim();
-            console.log(input);
-
             input = input.toLowerCase();
             console.log(input);
 
