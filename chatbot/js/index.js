@@ -27,6 +27,7 @@
             "Không chửi bậy nhé :) tao biết mày là ai đấy :)",
             "Cảm ơn nhé :)",
             "Địt mẹ mày :) đừng tưởng tao ngu",
+            "ông chủ Triệu :)"
         ],
         
         processOutput: function (input) {
@@ -55,7 +56,7 @@
                 }
                 else if(input.indexOf("ngu") != -1){
                     if (input.indexOf("đại học công nghệ") != -1) {
-                        return 3;
+                        return 8;
                     }
                     return 0;
                 }
