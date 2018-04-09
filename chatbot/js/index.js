@@ -52,6 +52,7 @@
                         return 3;
                     }
                 }
+                return 0;
 
             } else if (input.indexOf("dm") != -1 || input.indexOf("địt") != -1 ) {
                 return 5;
