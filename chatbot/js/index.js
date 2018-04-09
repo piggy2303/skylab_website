@@ -51,6 +51,13 @@
                     if (input.indexOf("đại học công nghệ") != -1) {
                         return 3;
                     }
+                    return 0;
+                }
+                else if(input.indexOf("ngu") != -1){
+                    if (input.indexOf("đại học công nghệ") != -1) {
+                        return 3;
+                    }
+                    return 0;
                 }
                 return 0;
 
