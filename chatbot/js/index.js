@@ -58,9 +58,9 @@
             } 
             else if (input.indexOf("tuấn anh") != -1 ) {
                 if(input.indexOf("đẹp trai") != -1 ||input.indexOf("dz") != -1 ){
-                    return 7;
+                    return 6;
                 }
-                return 8;
+                return 7;
             } 
             else {
                 return 0;
