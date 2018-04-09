@@ -25,6 +25,8 @@
             "Hiệu trưởng trường Đại học Công nghệ là PGS TS Nguyễn Việt Hà",
             "Mình được nhóm Skylab tạo ra",
             "Không chửi bậy nhé :) tao biết mày là ai đấy :)",
+            "Cảm ơn nhé :)",
+            "Địt mẹ mày :) đừng tưởng tao ngu",
         ],
         
         processOutput: function (input) {
@@ -51,9 +53,16 @@
                     }
                 }
 
-            } else if (input.indexOf("dm") != -1 || input.indexOf("địt") != -1) {
+            } else if (input.indexOf("dm") != -1 || input.indexOf("địt") != -1 ) {
                 return 5;
-            } else {
+            } 
+            else if (input.indexOf("tuấn anh") != -1 ) {
+                if(input.indexOf("đẹp trai") != -1 ||input.indexOf("dz") != -1 ){
+                    return 7;
+                }
+                return 8;
+            } 
+            else {
                 return 0;
             }
 
