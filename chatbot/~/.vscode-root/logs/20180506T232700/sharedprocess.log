@@ -1,0 +1,39 @@
+[2018-05-06 23:27:01.063] [sharedprocess] [info] main {"machineId":"2b66f0f89e186bf445a185bdc2ba4282d50589d75904de0d19664f3ff7c796b4"}
+[2018-05-06 23:27:01.130] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:01.184] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-06 23:27:02.633] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:02.637] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:02.647] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:02.698] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-06 23:27:02.701] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-06 23:27:05.022] [sharedprocess] [info] Installing extension: react-native-snippet
+[2018-05-06 23:27:05.351] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:08.044] [sharedprocess] [info] Downloaded extension: react-native-snippet
+[2018-05-06 23:27:08.110] [sharedprocess] [info] Extracted extension to /home/tuananh/.vscode/extensions/.jundat95.react-native-snippet-0.4.3: jundat95.react-native-snippet-0.4.3
+[2018-05-06 23:27:08.110] [sharedprocess] [info] Renamed to /home/tuananh/.vscode/extensions/jundat95.react-native-snippet-0.4.3
+[2018-05-06 23:27:08.110] [sharedprocess] [info] Installation completed. jundat95.react-native-snippet-0.4.3
+[2018-05-06 23:27:08.139] [sharedprocess] [info] Extensions installed successfully: jundat95.react-native-snippet
+[2018-05-06 23:27:08.268] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:08.281] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-06 23:27:12.704] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:12.704] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:12.709] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:12.787] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-06 23:27:12.792] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-06 23:27:15.357] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:40.064] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:40.075] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:40.087] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:27:40.156] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-06 23:27:40.160] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-06 23:27:41.070] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-05-06 23:27:42.693] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:31:14.051] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:31:14.058] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:31:14.071] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:31:14.164] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-06 23:31:14.170] [sharedprocess] [info] Scanned system extensions: 69
+[2018-05-06 23:31:16.608] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:36:16.629] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:41:16.644] [sharedprocess] [info] Scanned user extensions: 10
+[2018-05-06 23:46:16.668] [sharedprocess] [info] Scanned user extensions: 10

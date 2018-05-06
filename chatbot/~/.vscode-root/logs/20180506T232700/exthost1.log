@@ -1,0 +1,60 @@
+[2018-05-06 23:27:02.915] [exthost1] [info] extension host started
+[2018-05-06 23:27:02.936] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:02.936] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-05-06 23:27:02.993] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:02.993] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-05-06 23:27:03.130] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:03.130] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-05-06 23:27:03.144] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:03.144] [exthost1] [info] ExtensionService#loadCommonJSModule /home/tuananh/.vscode/extensions/dbaeumer.vscode-eslint-1.4.8/client/out/extension
+[2018-05-06 23:27:03.194] [exthost1] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:03.194] [exthost1] [info] ExtensionService#loadCommonJSModule /home/tuananh/.vscode/extensions/esbenp.prettier-vscode-1.3.1/out/src/extension
+[2018-05-06 23:27:03.351] [exthost1] [info] eager extensions activated
+[2018-05-06 23:27:13.055] [exthost1] [info] extension host started
+[2018-05-06 23:27:13.086] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:13.086] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-05-06 23:27:13.137] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:13.137] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-05-06 23:27:13.270] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:13.270] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-05-06 23:27:13.279] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:13.279] [exthost1] [info] ExtensionService#loadCommonJSModule /home/tuananh/.vscode/extensions/dbaeumer.vscode-eslint-1.4.8/client/out/extension
+[2018-05-06 23:27:13.316] [exthost1] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:13.316] [exthost1] [info] ExtensionService#loadCommonJSModule /home/tuananh/.vscode/extensions/esbenp.prettier-vscode-1.3.1/out/src/extension
+[2018-05-06 23:27:13.487] [exthost1] [info] eager extensions activated
+[2018-05-06 23:27:40.285] [exthost1] [info] extension host started
+[2018-05-06 23:27:40.311] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:40.311] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-05-06 23:27:40.359] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:40.359] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-05-06 23:27:40.491] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:40.491] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-05-06 23:27:40.500] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:40.500] [exthost1] [info] ExtensionService#loadCommonJSModule /home/tuananh/.vscode/extensions/dbaeumer.vscode-eslint-1.4.8/client/out/extension
+[2018-05-06 23:27:40.547] [exthost1] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:27:40.547] [exthost1] [info] ExtensionService#loadCommonJSModule /home/tuananh/.vscode/extensions/esbenp.prettier-vscode-1.3.1/out/src/extension
+[2018-05-06 23:27:40.714] [exthost1] [info] eager extensions activated
+[2018-05-06 23:27:52.164] [exthost1] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-05-06 23:27:52.164] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/php-language-features/out/phpMain
+[2018-05-06 23:27:57.884] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2018-05-06 23:27:57.884] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/out/extension
+[2018-05-06 23:27:57.999] [exthost1] [info] ExtensionService#_doActivateExtension flowtype.flow-for-vscode {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2018-05-06 23:27:57.999] [exthost1] [info] ExtensionService#loadCommonJSModule /home/tuananh/.vscode/extensions/flowtype.flow-for-vscode-0.8.1/build/index.js
+[2018-05-06 23:31:14.538] [exthost1] [info] extension host started
+[2018-05-06 23:31:14.593] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:31:14.594] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-05-06 23:31:14.682] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:31:14.682] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-05-06 23:31:14.886] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:31:14.886] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-05-06 23:31:14.903] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:31:14.903] [exthost1] [info] ExtensionService#loadCommonJSModule /home/tuananh/.vscode/extensions/dbaeumer.vscode-eslint-1.4.8/client/out/extension
+[2018-05-06 23:31:14.954] [exthost1] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2018-05-06 23:31:14.954] [exthost1] [info] ExtensionService#loadCommonJSModule /home/tuananh/.vscode/extensions/esbenp.prettier-vscode-1.3.1/out/src/extension
+[2018-05-06 23:31:15.154] [exthost1] [info] eager extensions activated
+[2018-05-06 23:31:17.823] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2018-05-06 23:31:17.823] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/out/extension
+[2018-05-06 23:31:17.922] [exthost1] [info] ExtensionService#_doActivateExtension flowtype.flow-for-vscode {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2018-05-06 23:31:17.922] [exthost1] [info] ExtensionService#loadCommonJSModule /home/tuananh/.vscode/extensions/flowtype.flow-for-vscode-0.8.1/build/index.js
+[2018-05-06 23:31:46.646] [exthost1] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-05-06 23:31:46.646] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/php-language-features/out/phpMain

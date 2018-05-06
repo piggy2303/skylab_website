@@ -2,8 +2,10 @@
 error_reporting(E_ERROR | E_PARSE);
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'nguyenvietha');
+define('DB_PASSWORD', '1234');
 define('DB_DATABASE', 'chatbot');
+
+
 
 
 $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
@@ -97,7 +99,7 @@ function check_subset($ques1,$ques2){
     //               }
     //       }
 function check_ques_ngram($ques,$list_ques){
-    // var_dump($list_ques);
+    var_dump($ques == "thi");
 	$max = 0.0;
 	$goal = "";
 	for($i = 0;$i<sizeof($list_ques); $i++){
@@ -109,8 +111,8 @@ function check_ques_ngram($ques,$list_ques){
 	}
 	return $goal;
 }
-
-$str = check_ques_ngram("điện tử", $result)['answer'];
+$temp = trim($question);
+$str = check_ques_ngram($temp, $result)['answer'];
 if($str == "") echo "Bạn hãy nhập keyword khác";
 else echo $str;
 

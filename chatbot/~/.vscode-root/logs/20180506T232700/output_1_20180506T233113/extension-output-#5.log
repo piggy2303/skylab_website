@@ -1,0 +1,6 @@
+[Info  - 11:31:18 PM] ESLint server is running.
+[Info  - 11:31:19 PM] ESLint library loaded from: /usr/lib/node_modules/eslint/lib/api.js
+[Warn  - 11:31:19 PM] 
+No ESLint configuration (e.g .eslintrc) found for file: /var/www/html/skylab_website/chatbot/js/index.js
+File will not be validated. Consider running 'eslint --init' in the workspace folder skylab_website
+Alternatively you can disable ESLint by executing the 'Disable ESLint' command.
