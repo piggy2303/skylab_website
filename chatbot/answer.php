@@ -49,11 +49,11 @@ if ($db->connect_error) {
   $question = $_POST['question'];
 //  echo check($result,$question)['answer'];
  function check_ngram($ngram, $ques){
-	$list = explode($ngram, $ques);
+	$list = explode(strtolower($ngram), strtolower($ques);
 	if( sizeof($list) >1){
-		return 1;
+		return 1.0;
 	}
-	return 0;
+	return 0.0;
 }
 
 function check_subset($ques1,$ques2){
@@ -63,25 +63,25 @@ function check_subset($ques1,$ques2){
 		$ques2=$tmp;
 	}
 	$check = check_ngram($ques1, $ques2);
-    if($check == 1){
-        return 1;
+    if($check == 1.0){
+        return 1.0;
     }
     $list_ques1 = explode(" ", $ques1);
     $countuni = 0; $uni = 0;
     $countbi = 0; $bi = 0;
     $counttri = 0; $tri = 0;
-    for($i = 0; $i<sizeof(list_ques1);$i++){
+    for($i = 0; $i<sizeof($list_ques1);$i++){
         $uni = $uni+1;
         $checkuni = check_ngram($list_ques1[$i], $ques2);
         $countuni = $countuni+$checkuni;
     }
-    for($i = 0; $i<sizeof(list_ques1)-1;$i++){
+    for($i = 0; $i<sizeof($list_ques1)-1;$i++){
         $bi = $bi+1;
         $bigram = $list_ques1[$i]+$list_ques1[$i+1];
         $checkbi = check_ngram($bigram, $ques2);
         $countbi = $countbi+$checkbi;
     }
-    for($i = 0; $i<sizeof(list_ques1)-2;$i++){
+    for($i = 0; $i<sizeof($list_ques1)-2;$i++){
         $tri = $tri+1;
         $trigram = $list_ques1[$i]+$list_ques1[$i+1]+$list_ques1[$i+2];
         $checktri = check_ngram($trigram, $ques2);
