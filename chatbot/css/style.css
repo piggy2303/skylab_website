@@ -59,7 +59,8 @@ body {
 }
 
 .chat {
-  width: 490px;
+  width: 600px;
+  /* height: 600px; */
   float: left;
   background: #F2F5F8;
   border-top-right-radius: 5px;
@@ -95,7 +96,7 @@ body {
   padding: 30px 30px 20px;
   border-bottom: 2px solid white;
   overflow-y: scroll;
-  height: 280px;
+  height: 350px;
 }
 .chat .chat-history .message-data {
   margin-bottom: 15px;

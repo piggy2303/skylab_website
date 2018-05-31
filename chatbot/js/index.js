@@ -72,7 +72,7 @@
                 console.log(this.messageResponses)
                 var contextResponse = {
                     // response: this.getRandomItem(this.messageResponses),
-                    response: this.messageResponses[indexOutput].slice(11,),
+                    response: this.messageResponses[indexOutput],
                     time: this.getCurrentTime()
                 };
 

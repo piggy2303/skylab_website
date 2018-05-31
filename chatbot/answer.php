@@ -2,7 +2,7 @@
 error_reporting(E_ERROR | E_PARSE);
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '12345678');
+define('DB_PASSWORD', '1234');
 define('DB_DATABASE', 'chatbot');
 
 
@@ -49,7 +49,7 @@ if ($db->connect_error) {
   $question = $_POST['question'];
 //  echo check($result,$question)['answer'];
  function check_ngram($ngram, $ques){
-	$list = explode($ngram, $ques);
+	$list = explode(strtolower($ngram), strtolower($ques));
 	if( sizeof($list) >1){
 		return 1;
 	}
@@ -70,18 +70,18 @@ function check_subset($ques1,$ques2){
     $countuni = 0; $uni = 0;
     $countbi = 0; $bi = 0;
     $counttri = 0; $tri = 0;
-    for($i = 0; $i<sizeof(list_ques1);$i++){
+    for($i = 0; $i<sizeof($list_ques1);$i++){
         $uni = $uni+1;
         $checkuni = check_ngram($list_ques1[$i], $ques2);
         $countuni = $countuni+$checkuni;
     }
-    for($i = 0; $i<sizeof(list_ques1)-1;$i++){
+    for($i = 0; $i<sizeof($list_ques1)-1;$i++){
         $bi = $bi+1;
         $bigram = $list_ques1[$i]+$list_ques1[$i+1];
         $checkbi = check_ngram($bigram, $ques2);
         $countbi = $countbi+$checkbi;
     }
-    for($i = 0; $i<sizeof(list_ques1)-2;$i++){
+    for($i = 0; $i<sizeof($list_ques1)-2;$i++){
         $tri = $tri+1;
         $trigram = $list_ques1[$i]+$list_ques1[$i+1]+$list_ques1[$i+2];
         $checktri = check_ngram($trigram, $ques2);
@@ -99,7 +99,7 @@ function check_subset($ques1,$ques2){
     //               }
     //       }
 function check_ques_ngram($ques,$list_ques){
-    var_dump($ques == "thi");
+    //var_dump($ques == "thi");
 	$max = 0.0;
 	$goal = "";
 	for($i = 0;$i<sizeof($list_ques); $i++){
