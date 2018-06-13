@@ -112,7 +112,10 @@ function check_ques_ngram($ques,$list_ques){
 	return $goal;
 }
 $temp = trim($question);
-$str = check_ques_ngram($temp, $result)['answer'];
+//$str = check_ques_ngram($temp, $result)['answer'];
+$str1 = check_ques_ngram($temp, $result)['question'];
+$str2 = check_ques_ngram($temp, $result)['answer'];
+$str = "Câu hỏi: ".$str1."\n"."Trả lời: ".$str2;
 if($str == "") echo "Bạn hãy nhập keyword khác";
 else echo $str;
 
